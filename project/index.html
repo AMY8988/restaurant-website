@@ -17,7 +17,7 @@
 
     <div class=" container-fluid px-0">
           <!-- home -->
-        <section class="home container-fluid ">
+        <section id="home" class="home container-fluid ">
             <!-- navbar -->
             <div class="row wow animate__slideInDown fixed-top ">
 
@@ -35,7 +35,7 @@
                           <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0 me-0 fw-bold">
                               <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" id="nav-link-home" aria-current="page" href="#">Home</a>
                               </li>
                               <li class="nav-item px-2">
                                 <a class="nav-link" href="about-us.html">About</a>
@@ -84,7 +84,7 @@
         </section>
 
         <!-- About -->
-        <section class="about container-fluid bg-light ">
+        <section id="about" class="about container-fluid bg-light ">
           <div class="row m-0">
 
             <div class="col-12 col-lg-6 d-flex justify-content-end">
@@ -98,9 +98,9 @@
                 <span class=" text-primary wow animate__fadeInRightBig ">About Us</span>
                 <h4 class=" fw-bold my-3 wow animate__fadeInRightBig delay">We cook the best tasty food</h4>
                 <p class=" text-black-50 wow animate__fadeInRightBig delay2">We cook the best food in the entire city,with excellent customer service, the best meals and at the best price, visit us.</p>
-                <button class=" btn border border-0 rounded-pill bg-primary text-white py-2 wow animate__fadeInRightBig delay2">
+                <a href="about-us.html" class=" btn border border-0 rounded-pill bg-primary text-white py-2 wow animate__fadeInRightBig delay2">
                  More Details
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
         </section>
         
         <!-- serviecs -->
-        <section class="about-carousal service bg-light upper-space">
+        <section id="services" class="about-carousal service bg-light upper-space">
           <div class="container">
 
             <div class=" text-center mb-5 wow animate__zoomIn">
@@ -169,7 +169,7 @@
 
         <!-- menu -->
 
-        <section class=" menu container  upper-space">
+        <section id="menu" class=" menu container  upper-space">
 
           <div class=" text-center my-5 wow animate__zoomIn">
             <span class="text-primary" >special</span>
@@ -250,12 +250,12 @@
         </section>
 
         <!-- fixed-img -->
-        <div class="container-fluid fixed-img ">
+        <div  class="container-fluid fixed-img ">
 
         </div>
 
         <!-- APP -->
-        <section class=" app container  my-5">
+        <section id="app" class=" app container  my-5">
           <div class="row">
             <div class="col-12 col-lg-6 text-end wow  animate__fadeInLeftBig">
               <img src="img/movil-app.svg" alt="">
@@ -281,7 +281,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="container-fluid contact pt-5  bg-light">
+        <section id="contact" class="container-fluid contact pt-5  bg-light">
           <div class="container d-flex flex-column justify-content-evenly vh-100 ">
             
               <div class=" row ">
@@ -439,6 +439,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="vendor/wow/wow.min.js"></script>
+    <script src="js/app.js"></script>
     <script>
       wow = new WOW(
                 {
