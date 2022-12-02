@@ -17,16 +17,16 @@
 
     <div class=" container-fluid px-0">
           <!-- home -->
-        <section id="home" class="home container-fluid ">
+          <section id="home" class=" home container-fluid ">
             <!-- navbar -->
-            <div class="row wow animate__slideInDown fixed-top ">
+            <div class="scroll-nav row wow animate__slideInDown  ">
 
                   
                 <div class="col-12 shadow px-0 ">
-                    <nav class="navbar navbar-expand-lg bg-light navbar-light ">
-                        <div class="container   justify-content-between align-items-center" >
-                          <div class="">
-                            <a class="navbar-brand fw-bolder text-primary" href="#" >Tasty</a>
+                    <nav class="navbar  navbar-expand-lg bg-light navbar-light ">
+                        <div class="container   " >
+                          <div class=" d-flex justify-content-between">
+                          <a class="navbar-brand fw-bolder text-primary" href="#" >Tasty</a>
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -35,19 +35,19 @@
                           <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0 me-0 fw-bold">
                               <li class="nav-item px-2">
-                                <a class="nav-link active" id="nav-link-home" aria-current="page" href="#">Home</a>
+                                <a class="nav-link " id="nav-link-home" aria-current="page" href="#home">Home</a>
                               </li>
                               <li class="nav-item px-2">
-                                <a class="nav-link" href="about-us.html">About</a>
+                                <a class="nav-link" href="#about">About</a>
                               </li>
                               <li class="nav-item px-2 dropdown">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                               </li>
                               <li class="nav-item px-2">
-                                <a class="nav-link " href="meun-list.html">Menu</a>
+                                <a class="nav-link " href="#menu">Menu</a>
                               </li>
                               <li class="nav-item px-2">
-                                <a class="nav-link " href="#">Contact</a>
+                                <a class="nav-link " href="#contact">Contact</a>
                               </li>
                             </ul>
                             
@@ -62,7 +62,7 @@
             <div class="row">
               <div class="container ">
                 <div class="row ">
-                  <div class="col-12 col-lg-6 d-flex align-items-center justify-content-around">
+                  <div class="col-12 col-md-6 my-5 my-md-0 d-flex text-center text-lg-start align-items-center justify-content-around">
                      <div class="home-content ">
                        <h1 class=" text-primary fw-bolder wow animate__fadeInLeftBig ">Tasty Food</h1>
                        <h4 class=" fw-bold mt-3 wow animate__fadeInLeftBig delay"> Try the best food of the week... </h4>
@@ -72,7 +72,7 @@
                         </button>
                      </div>
                   </div>
-                  <div class="col-12 col-lg-6">
+                  <div class="col-12 col-md-6">
                     <div class=" home-img ms-5 wow animate__fadeInRightBig delay2">
                       <img src="img/home.svg" class=" img-fluid" alt="">
                     </div>
@@ -177,7 +177,7 @@
           </div>
 
           <div class="row">
-            <div class="col-12 col-lg-4 d-flex justify-content-center wow animate__zoomIn delay">
+            <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-2 justify-content-center wow animate__zoomIn delay">
               <div class=" card border-0 shadow w-75 position-relative ">
                 <div class="card-body p-3 ">
                   <div class=" text-center">
@@ -198,7 +198,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-4 d-flex justify-content-center wow animate__zoomIn delay2">
+            <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-2 justify-content-center wow animate__zoomIn delay2">
               <div class=" card border-0 shadow w-75 position-relative ">
                 <div class="card-body p-3 ">
                   <div class=" text-center">
@@ -219,7 +219,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-4 d-flex justify-content-center wow animate__zoomIn delay3">
+            <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-2 justify-content-center wow animate__zoomIn delay3">
               <div class=" card border-0 shadow w-75 position-relative ">
                 <div class="card-body p-3 ">
                   <div class=" text-center">
@@ -241,7 +241,7 @@
             </div>
 
             <div class="col-12 text-center mt-5 wow animate__zoomIn">
-              <button class="btn   rounded-pill btn-sm btn-outline-primary px-2">more details</button>
+              <a href="menu-list.html" id="menuList" class="btn   rounded-pill btn-sm btn-outline-primary px-2">more details</a>
             </div>
 
 
@@ -267,7 +267,7 @@
                 <p class=" text-black-50 w-75 overflow-hidden wow animate__fadeInRightBig delay2">
                   Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.
                 </p>
-                <div class="d-flex">
+                <div class="d-flex justify-content-around">
                   <a href="">
                     <img src="img/app1.png" class=" h-75 wow animate__fadeInRightBig delay3" alt="">
                   </a>
@@ -280,152 +280,152 @@
           </div>
         </section>
 
-        <!-- Contact -->
-        <section id="contact" class="container-fluid contact pt-5  bg-light">
-          <div class="container d-flex flex-column justify-content-evenly vh-100 ">
-            
-              <div class=" row ">
-                <div class="col-12 col-md-8 m-0">
-                  <div class="wow animate__fadeInLeftBig delay2">
-                    <span class=" text-primary">Let's talk</span>
-                    <h3 class=" fw-bolder">Contact Us</h3>
-                    <p class=" text-black-50 w-75">
-                      If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.
-    
-                    </p>
-                  </div>
-                </div>
-                <div class="col-12  col-md-4  my-5 wow animate__fadeInRightBig delay3">
-                  <button class="aa btn btn-primary rounded-pill">Contact Now</button>
+       <!-- contact -->
+       <section id="contact" class="contact container-fluid contact pt-5  bg-light">
+        <div class="container d-flex flex-column justify-content-evenly  ">
+          
+            <div class=" row ">
+              <div class="col-12 col-md-8 m-0">
+                <div class="wow animate__fadeInLeftBig delay2">
+                  <span class=" text-primary">Let's talk</span>
+                  <h3 class=" fw-bolder">Contact Us</h3>
+                  <p class=" text-black-50 w-75">
+                    If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.
+  
+                  </p>
                 </div>
               </div>
+              <div class="col-12  col-md-4  my-5 wow animate__fadeInRightBig delay3">
+                <button class="aa btn btn-primary rounded-pill">Contact Now</button>
+              </div>
+            </div>
 
-              <div class=" row my-4">
-                <div class="col-12 col-lg-4 text-center wow animate__zoomIn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="130" height="263.385" viewBox="0 0 279.698 263.385">
-                    <g id="undraw_mail_sent_re_0ofv" transform="translate(-2.46 53.58) rotate(-13)">
-                      <path id="Path_42" data-name="Path 42" d="M556.239,276.506a.419.419,0,0,1-.24-.075L439.617,195.38a2.111,2.111,0,0,0-2.411,0L321.662,276.43a.421.421,0,1,1-.483-.689l115.544-81.047a2.955,2.955,0,0,1,3.375-.006L556.479,275.74a.421.421,0,0,1-.241.766Z" transform="translate(-318.475 -194.163)" fill="#3f3d56"/>
-                      <path id="Path_43" data-name="Path 43" d="M23.264,90.035,133.524,8.319l111.1,87.531L139.205,158.342,81.974,145.3Z" transform="translate(-13.474 -4.818)" fill="#e6e6e6"/>
-                      <path id="Path_44" data-name="Path 44" d="M410.784,643.7H356.313a2.545,2.545,0,1,1,0-5.09h54.472a2.545,2.545,0,0,1,0,5.09Z" transform="translate(-337.453 -451.577)" fill="#259e65"/>
-                      <path id="Path_45" data-name="Path 45" d="M375.856,617.7H356.313a2.545,2.545,0,0,1,0-5.09h19.543a2.545,2.545,0,1,1,0,5.09Z" transform="translate(-337.453 -436.518)" fill="#259e65"/>
-                      <path id="Path_46" data-name="Path 46" d="M508.708,340.054a3.183,3.183,0,0,1-1.207-.237l-68-28.216v-88.32a2.949,2.949,0,0,1,2.946-2.946H572.9a2.949,2.949,0,0,1,2.946,2.946v88.381l-.128.055L509.952,339.8A3.2,3.2,0,0,1,508.708,340.054Z" transform="translate(-387.108 -209.322)" fill="#fff"/>
-                      <path id="Path_47" data-name="Path 47" d="M508.419,339.975a3.4,3.4,0,0,1-1.288-.252L439,311.453v-88.46a3.16,3.16,0,0,1,3.156-3.156H572.611a3.16,3.16,0,0,1,3.156,3.156v88.52l-66.022,28.195A3.412,3.412,0,0,1,508.419,339.975Zm-68.577-29.084,67.61,28.054a2.574,2.574,0,0,0,1.964-.012l65.509-27.976V222.993a2.317,2.317,0,0,0-2.315-2.314H442.156a2.317,2.317,0,0,0-2.315,2.315Z" transform="translate(-386.818 -209.033)" fill="#3f3d56"/>
-                      <path id="Path_48" data-name="Path 48" d="M551.923,387.837h-.084l-48.31,20.629-66.1,28.224a2.132,2.132,0,0,1-1.633.008L367.6,408.407l-49.5-20.536-.076-.034h-.084A2.949,2.949,0,0,0,315,390.783v127.93a2.949,2.949,0,0,0,2.946,2.946H551.923a2.949,2.949,0,0,0,2.946-2.946V390.783A2.949,2.949,0,0,0,551.923,387.837Zm2.1,130.876a2.1,2.1,0,0,1-2.1,2.1H317.946a2.1,2.1,0,0,1-2.1-2.1V390.783a2.109,2.109,0,0,1,2.024-2.1L367.6,409.316l67.87,28.161a3,3,0,0,0,2.289-.013l65.766-28.086,48.479-20.7a2.111,2.111,0,0,1,2.02,2.1Z" transform="translate(-315 -306.335)" fill="#3f3d56"/>
-                      <path id="Path_49" data-name="Path 49" d="M550.219,328.516a11.572,11.572,0,0,1-6.963-2.313l-.125-.093-26.222-20.076a11.65,11.65,0,0,1,14.171-18.495l16.985,13.024L588.2,248.218a11.649,11.649,0,0,1,16.333-2.156l-.25.339.256-.334A11.663,11.663,0,0,1,606.7,262.4l-47.211,61.57a11.655,11.655,0,0,1-9.268,4.547Z" transform="translate(-429.298 -222.828)" fill="#259e65"/>
-                    </g>
-                  </svg>
-                  
-                </div>
-                <div class="col-12 col-lg-8 ">
-                  
-                    <p class=" mb-4 text-black wow animate__zoomIn">Leave a comment</p>
+            <div class=" row my-4">
+              <div class="col-12 col-lg-5 text-center wow animate__zoomIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="130" height="263.385" viewBox="0 0 279.698 263.385">
+                  <g id="undraw_mail_sent_re_0ofv" transform="translate(-2.46 53.58) rotate(-13)">
+                    <path id="Path_42" data-name="Path 42" d="M556.239,276.506a.419.419,0,0,1-.24-.075L439.617,195.38a2.111,2.111,0,0,0-2.411,0L321.662,276.43a.421.421,0,1,1-.483-.689l115.544-81.047a2.955,2.955,0,0,1,3.375-.006L556.479,275.74a.421.421,0,0,1-.241.766Z" transform="translate(-318.475 -194.163)" fill="#3f3d56"/>
+                    <path id="Path_43" data-name="Path 43" d="M23.264,90.035,133.524,8.319l111.1,87.531L139.205,158.342,81.974,145.3Z" transform="translate(-13.474 -4.818)" fill="#e6e6e6"/>
+                    <path id="Path_44" data-name="Path 44" d="M410.784,643.7H356.313a2.545,2.545,0,1,1,0-5.09h54.472a2.545,2.545,0,0,1,0,5.09Z" transform="translate(-337.453 -451.577)" fill="#259e65"/>
+                    <path id="Path_45" data-name="Path 45" d="M375.856,617.7H356.313a2.545,2.545,0,0,1,0-5.09h19.543a2.545,2.545,0,1,1,0,5.09Z" transform="translate(-337.453 -436.518)" fill="#259e65"/>
+                    <path id="Path_46" data-name="Path 46" d="M508.708,340.054a3.183,3.183,0,0,1-1.207-.237l-68-28.216v-88.32a2.949,2.949,0,0,1,2.946-2.946H572.9a2.949,2.949,0,0,1,2.946,2.946v88.381l-.128.055L509.952,339.8A3.2,3.2,0,0,1,508.708,340.054Z" transform="translate(-387.108 -209.322)" fill="#fff"/>
+                    <path id="Path_47" data-name="Path 47" d="M508.419,339.975a3.4,3.4,0,0,1-1.288-.252L439,311.453v-88.46a3.16,3.16,0,0,1,3.156-3.156H572.611a3.16,3.16,0,0,1,3.156,3.156v88.52l-66.022,28.195A3.412,3.412,0,0,1,508.419,339.975Zm-68.577-29.084,67.61,28.054a2.574,2.574,0,0,0,1.964-.012l65.509-27.976V222.993a2.317,2.317,0,0,0-2.315-2.314H442.156a2.317,2.317,0,0,0-2.315,2.315Z" transform="translate(-386.818 -209.033)" fill="#3f3d56"/>
+                    <path id="Path_48" data-name="Path 48" d="M551.923,387.837h-.084l-48.31,20.629-66.1,28.224a2.132,2.132,0,0,1-1.633.008L367.6,408.407l-49.5-20.536-.076-.034h-.084A2.949,2.949,0,0,0,315,390.783v127.93a2.949,2.949,0,0,0,2.946,2.946H551.923a2.949,2.949,0,0,0,2.946-2.946V390.783A2.949,2.949,0,0,0,551.923,387.837Zm2.1,130.876a2.1,2.1,0,0,1-2.1,2.1H317.946a2.1,2.1,0,0,1-2.1-2.1V390.783a2.109,2.109,0,0,1,2.024-2.1L367.6,409.316l67.87,28.161a3,3,0,0,0,2.289-.013l65.766-28.086,48.479-20.7a2.111,2.111,0,0,1,2.02,2.1Z" transform="translate(-315 -306.335)" fill="#3f3d56"/>
+                    <path id="Path_49" data-name="Path 49" d="M550.219,328.516a11.572,11.572,0,0,1-6.963-2.313l-.125-.093-26.222-20.076a11.65,11.65,0,0,1,14.171-18.495l16.985,13.024L588.2,248.218a11.649,11.649,0,0,1,16.333-2.156l-.25.339.256-.334A11.663,11.663,0,0,1,606.7,262.4l-47.211,61.57a11.655,11.655,0,0,1-9.268,4.547Z" transform="translate(-429.298 -222.828)" fill="#259e65"/>
+                  </g>
+                </svg>
+                
+              </div>
+              <div class="col-12 col-lg-7 ">
+                
+                  <p class=" mb-4 text-black wow animate__zoomIn">Leave a comment</p>
 
-                    <form class=" row">
-                      <div class=" col-auto">
-                        <input type="text"  placeholder="name" class="aa form-control rounded-pill wow animate__zoomIn delay">
-                        
-                      </div>
-                      <div class=" col-lg-auto">
-                        <input type="text" placeholder="email address" class="aa form-control rounded-pill wow animate__zoomIn delay2">
-                      </div>
-                      <div>
-                        <textarea style="border-radius: 20px;width: 60%;" placeholder="comment" name="" class="aa form-control  mt-3 wow animate__zoomIn delay3" id="" cols="5" rows="5"></textarea>
-                      </div>
-
-                      <div class="">
-                        <button name="submit" class="btn btn-sm btn-primary rounded-pill my-3 px-4 wow animate__zoomIn delay4">Submit</button>
-                      </div>
+                  <form class=" row">
+                    <div class=" col-12 col-md-6 mb-2">
+                      <input type="text"  placeholder="name" class="aa form-control rounded-pill wow animate__zoomIn delay">
                       
-                    </form>
-
-                  
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-12 col-lg-3">
-                  <div class="wow animate__zoomIn">
-                    <h3 class="fw-bolder  mb-4">
-                     <a href="index.html" class=" text-primary"> Tasty Food</a>
-                    </h3>
-                    <span class=" text-black-50 ">Restaurant</span>
-                    <div class="w-50 mt-3 d-flex justify-content-between align-items-center ">
-                      <a href="">
-                        <i class=" text-black fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a href="">
-                        <i class=" text-black fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="">
-                        <i class=" text-black fa-brands fa-twitter"></i>
-                      </a>
                     </div>
-                  </div>
-                </div>
+                    <div class=" col-12 col-md-6">
+                      <input type="text" placeholder="email address" class="aa form-control rounded-pill wow animate__zoomIn delay2">
+                    </div>
+                    <div class="col-12 ">
+                      <textarea style="border-radius: 20px;" placeholder="comment" name="" class="aa form-control  mt-3 wow animate__zoomIn delay3" id="" cols="5" rows="5"></textarea>
+                    </div>
 
-                <div class="col-12 col-lg-3 wow animate__zoomIn delay">
-                  <div class="">
-                    <h3 class="fw-bolder  mb-4">Services</h3>
-                  <ul class=" p-0">
-                    <li>
-                      <a href="">Delivery</a>
-                    </li>
-                    <li>
-                      <a href="">Pricing</a>
-                    </li>
-                    <li>
-                      <a href="">Fast Food</a>
-                    </li>
-                    <li>
-                      <a href="">Reserve your spot</a>
-                    </li>
-                  </ul>
-                  </div>
-                </div>
+                    <div class="">
+                      <button name="submit" class="btn btn-sm btn-primary rounded-pill my-3 px-4 wow animate__zoomIn delay4">Submit</button>
+                    </div>
+                    
+                  </form>
 
-                <div class="col-12 col-lg-3 wow animate__zoomIn delay2">
-                  <div class="">
-                    <h3 class="fw-bolder  mb-4">Information</h3>
-                  <ul class=" p-0">
-                    <li>
-                      <a href="">Event</a>
-                    </li>
-                    <li>
-                      <a href="">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="">Term of Services</a>
-                    </li>
-                  </ul>
-                  </div>
-                </div>
+                
+              </div>
+            </div>
 
-                <div class="col-12 col-lg-3 wow animate__zoomIn delay3">
-                  <div class="">
-                    <h3 class="fw-bolder  mb-4">Address</h3>
-                  <ul class=" p-0">
-                    <li>
-                      <p class=" mb-0">Lima - Peru</p>
-                    </li>
-                    <li>
-                      <a href="">Jr Uniron #999</a>
-                    </li>
-                    <li>
-                      <p class="mb-0">999-888-777</p>
-                    </li>
-                    <li>
-                      <a href="">tastyfood@email.com</a>
-                    </li>
-                  </ul>
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <div class="wow animate__zoomIn">
+                  <h3 class="fw-bolder  mb-4">
+                   <a href="index.html" class=" text-primary"> Tasty Food</a>
+                  </h3>
+                  <span class=" text-black-50 ">Restaurant</span>
+                  <div class="w-50 mt-3 d-flex justify-content-between align-items-center ">
+                    <a href="">
+                      <i class=" text-black fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                      <i class=" text-black fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                      <i class=" text-black fa-brands fa-twitter"></i>
+                    </a>
                   </div>
                 </div>
               </div>
-            
-          </div>
-        </section>
+
+              <div class="col-12 col-lg-3 wow animate__zoomIn delay">
+                <div class="">
+                  <h3 class="fw-bolder  mb-4">Services</h3>
+                <ul class=" p-0">
+                  <li>
+                    <a href="">Delivery</a>
+                  </li>
+                  <li>
+                    <a href="">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="">Fast Food</a>
+                  </li>
+                  <li>
+                    <a href="">Reserve your spot</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3 wow animate__zoomIn delay2">
+                <div class="">
+                  <h3 class="fw-bolder  mb-4">Information</h3>
+                <ul class=" p-0">
+                  <li>
+                    <a href="">Event</a>
+                  </li>
+                  <li>
+                    <a href="">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="">Term of Services</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3 wow animate__zoomIn delay3">
+                <div class="">
+                  <h3 class="fw-bolder  mb-4">Address</h3>
+                <ul class=" p-0">
+                  <li>
+                    <p class=" mb-0">Lima - Peru</p>
+                  </li>
+                  <li>
+                    <a href="">Jr Uniron #999</a>
+                  </li>
+                  <li>
+                    <p class="mb-0">999-888-777</p>
+                  </li>
+                  <li>
+                    <a href="">tastyfood@email.com</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </section> 
 
 
 
@@ -438,6 +438,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="vendor/wow/wow.min.js"></script>
     <script src="js/app.js"></script>
     <script>

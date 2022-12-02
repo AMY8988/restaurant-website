@@ -1,0 +1,242 @@
+$primary: #069C54;
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+.home-img{
+  width: 65%;
+  margin: 100px 0;
+}
+
+
+.home{
+  background-image: url(../img/kimberly-farmer-_jn3ZJGuszU-unsplash.png);
+  background-position-x: -30px;
+}
+
+.about{
+  padding: 100px 0 ;
+
+}
+
+.nav-link{
+  transition: 0.5s;
+}
+
+.nav-link:hover{
+  color: #069C54 !important;
+  transform: scale(1.01) !important;
+}
+
+.nav-link.active{
+  color: #069C54 !important;
+  transform: scale(1.1) !important;
+}
+
+.nav-scroll{
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 0 15px #00000020;
+  z-index: 1000;
+  transition: 0.4s;
+}
+
+.upper-space{
+  padding: 100px 0;
+}
+
+.about-carousal img{
+  width: 30%;
+}
+
+.about-img{
+  background-image: url(../img/about.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 65%;
+  height: 500px;
+
+}
+
+.menu .card{
+  /* width: 60%; */
+  border-radius:  10px;
+  transition: 0.3s;
+}
+
+
+
+.menu img{
+  width: 60%;
+  height: auto;
+  /* margin: 0 60px; */
+}
+
+.menu .card-details{
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius:  10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000095;
+  transition: 0.4s;
+  color:white;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+}
+
+
+.menu .card-details:hover{
+  opacity: 1;
+}
+
+
+.menu .card-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu .card-btn button{
+  border-radius: 10px 0;
+}
+
+.fixed-img{
+  background-image: url(../img/lily-banse--YHSwy6uqvk-unsplash.png);
+  height: 300px;
+  background-size: cover;
+  filter:brightness(0.7);
+  box-shadow: inset 0 10px 5px #00000050;
+  background-attachment: fixed;
+}
+
+.app img{
+  height: 500px;
+}
+
+.contact ul,a{
+  list-style: none;
+  text-decoration: none;
+  color: #00000070 !important;
+  transition: 0.3s;
+}
+
+.contact a:hover{
+  color: #069C54 !important;
+}
+
+.contact, .about , .service{
+  background-image: url(../img/istockphoto-1258733624-612x612.jpg);
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+.delay{
+  animation-delay: 0.3s;
+}
+
+.delay2{
+  animation-delay: 0.5s;
+}
+
+.delay3{
+  animation-delay: 0.7s;
+}
+
+.delay4{
+  animation-delay: 0.9s;
+}
+
+/* about file start*/
+.about-home{
+
+  height: 400px;
+  background-image: url(../img/lily-banse--YHSwy6uqvk-unsplash.png);
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 -10px 20px #00000070;
+
+
+}
+
+.about-home-text{
+  backdrop-filter: blur(2px);
+}
+
+.blog{
+  background-image: url(../img/dose-juice-sTPy-oeA3h0-unsplash.png);
+  background-size: cover;
+
+}
+
+.chef-one{
+
+  background-image: url(../img/pylyp-sukhenko-y-XZf_TNRms-unsplash.png);
+  background-position-x: right ;
+
+}
+
+.chef-two{
+
+  background-image: url(../img/johnathan-macedo-4NQEvxW2_4w-unsplash.png);
+  background-size: cover;
+  
+
+}
+// about file end
+
+//menu-list file start
+
+
+.show-add-to-card:focus{
+  box-shadow: none;
+}
+
+.sidebar{
+  display: block !important; 
+  position: fixed;
+  z-index: 2000;
+  margin-left: -100%;
+  transition: 1s;
+}
+
+.sidebar-show{
+  margin-left: 0;
+}
+
+
+//menu-list file end
+
+@media screen and (max-width: 768px) {
+  .chef-one{
+    height: 300px !important;
+    background-position: center;
+  }
+
+  .chef-two{
+    height: 300px !important;
+    background-position: center;
+  }
+
+  .who-we-are{
+    text-align: center !important
+  }
+
+  .nav-link.active {
+    color: #069C54 !important;
+    transform: scale(1.01) !important;
+
+  }
+
+  .about-img{ 
+    width: 100%;
+  }
+}
